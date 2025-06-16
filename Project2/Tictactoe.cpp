@@ -56,7 +56,7 @@ int main() {
         initBoard();
         int gameOver = 0;
         while (!gameOver) {
-            system("cls"); // Clear the screen before drawing the board
+            system("cls");
             drawBoard();
             int Choice, Row, Column;
             printf("Player %c Turn\n", currentPlayer);
